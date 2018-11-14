@@ -1,5 +1,6 @@
 # practice
 
-**ciphers.py:** classes for decrypting various simple ciphers <br>
-**birthday.py:** computes probability of collisions <br>
-**sorts.py:** code for different sorting algorithms, plus binary search
+**for_fun/** random bits of code, just because
+**book_questions/** problems from Cracking the Coding Interview and Elements of Programming Interviews
+**project_euler/** problems from project euler
+**other/** sorts, ciphers, and other basic programs
