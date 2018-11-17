@@ -69,30 +69,17 @@ def quickSort(arr,lo,hi):
 
 def partition(arr,lo,hi):
 
-	def swap(arr, a, b):
-		temp = arr[a]
-		arr[a] = arr[b]
-		arr[b] = temp
-		return arr
-
 	pivot = arr[hi]
-	print "pivot=",pivot
 	i = lo - 1
 	for j in range(lo,hi):
 		if arr[j] < pivot:
 			i+= 1
-			arr = swap(arr,i,j)
+			i, j = j, i
 
-	arr = swap(arr,i+1,hi)
+	i + 1, hi = hi, i + 1
 	print arr
 
-	return i+1
-
-
-
-
-
-
+	return i + 1
 
 
 
