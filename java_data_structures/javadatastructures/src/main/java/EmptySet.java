@@ -50,7 +50,7 @@ public class EmptySet extends ASet {
         return other;
     }
 
-    protected Set differenceHelper(Set other) {
+    protected ASet differenceHelper(Set other) {
         return new EmptySet();
     }
 
